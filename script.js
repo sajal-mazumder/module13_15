@@ -12,4 +12,12 @@ const number = 34;
 // number = 35; we cannot update same name value using const.
 console.log(number);
 
+// data type 1. primitive data: number, string, boolean, integer, float
+let num = 23;
+let sTring = 'sajal';
+let flOat = 23.5;
+let boolEan = true;
+let Int = 25;
+
+
 

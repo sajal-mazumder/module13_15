@@ -39,18 +39,36 @@
 // console.log( typeof num2)
 
 // convert num to string and string to num
-let num3 = 20;
-let newNum = toString.num3;
-console.log(newNum)
+// let num3 = 20;
+// let newNum = toString.num3;
+// console.log(newNum)
 
-let num4 = '23';
-let num44 = parseInt(num4);
-console.log(num44);
+// let num4 = '23';
+// let num44 = parseInt(num4);
+// console.log(num44); // result : 23
 
-let namee = 'sajal';
-namee = parseInt(namee);
-console.log(namee);
+// let namee = 'sajal';
+// namee = parseInt(namee); 
+// console.log(namee); // NaN 
+
+// tofixed method
+// let nm1 = 0.1;
+// let nm2 = 0.2;
+// console.log(nm1 + nm2); // result: 0.30000000000000004, to control it we can use tofixed method
+// console.log((nm1 + nm2).toFixed(3)) // now the result is 0.300 and it act as string.
 
 
+// concat numbers : it works only addition operator. 
+let nm3 = '23';
+let nm4 = 45;
+let total = nm3 + nm4;
+console.log(total); // result is : 2345;
+
+let nm5 = '45';
+let nm6 = 25;
+let sub = nm5 - nm6;
+console.log(sub);
+console.log(nm5 * nm6);
+console.log(nm5 / nm6);
 
 

@@ -18,6 +18,27 @@ let sTring = 'sajal';
 let flOat = 23.5;
 let boolEan = true;
 let Int = 25;
+// convert float number to integer
+let Float = 23.4;
+// let inte = parseInt(Float); technique 01
+// console.log(inte)
+// console.log(parseInt.Float) not working
+
+let intg = 23; // 
+let flOAt = parseFloat(intg); // convert integer to float 
+console.log(flOAt)
+
+// checking type of
+let num1 = 12;
+console.log( typeof num1);
+let name = 'sajal';
+console.log( typeof name);
+let isHappy = true;
+console.log( typeof isHappy);
+let num2 = 34.5;
+console.log( typeof num2)
+
+
 
 
 

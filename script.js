@@ -59,16 +59,18 @@
 
 
 // concat numbers : it works only addition operator. 
-let nm3 = '23';
-let nm4 = 45;
-let total = nm3 + nm4;
-console.log(total); // result is : 2345;
+// let nm3 = '23';
+// let nm4 = 45;
+// let total = nm3 + nm4;
+// console.log(total); // result is : 2345;
 
-let nm5 = '45';
-let nm6 = 25;
-let sub = nm5 - nm6;
-console.log(sub);
-console.log(nm5 * nm6);
-console.log(nm5 / nm6);
+// let nm5 = '45';
+// let nm6 = 25;
+// let sub = nm5 - nm6;
+// console.log(sub);
+// console.log(nm5 * nm6);
+// console.log(nm5 / nm6);
 
 
+let a = 5;
+console.log(a)

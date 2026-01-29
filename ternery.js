@@ -16,15 +16,29 @@
         // price = isLeader === true? console.log('pay for only 100') : console.log( 'pay full taka')
         
         // nested code in a ternary operator
-let price = 1000;
-let isLeader = false;       
+// let price = 1000;
+// let isLeader = false;       
        
-if (price > 300) {
-    if (isLeader === true) {
-        console.log('pay on 50% discount')
-    }else if(isLeader === false){
-        console.log("pay on 10% discount")
-    }
+// if (price > 300) {
+//     if (isLeader === true) {
+//         console.log('pay on 50% discount')
+//     }else if(isLeader === false){
+//         console.log("pay on 10% discount")
+//     }
+// }else{
+//     console.log('pay full payment')
+// }
+
+// logical not operator !
+
+let isHappy = true;
+// if (!isHappy) {
+//     console.log('return value')
+// }else{
+//     console.log('return another value')
+// }
+if (!!isHappy) {
+    console.log('return value')
 }else{
-    console.log('pay full payment')
+    console.log('return another')
 }

@@ -72,5 +72,4 @@
 // console.log(nm5 / nm6);
 
 
-let a = 5;
-console.log(a)
+

@@ -198,10 +198,99 @@
 
 // method 3
 
-let c = 0;
-while (c <= 20) {
-    if (c % 2 !== 1) {
-        console.log(c);
-    }
-    c++;
-}
+// let c = 0;
+// while (c <= 20) {
+//     if (c % 2 !== 1) {
+//         console.log(c);
+//     }
+//     c++;
+// }
+
+// finding numbers upto 50 divisible by 5
+
+// let d = 0; // using while loop
+// while (d <= 50) {
+//     // if (d % 5 === 0) {
+//     //     console.log(d);
+//     // }
+//     d++;
+// }
+
+
+// using for loop
+
+// for(let d = 0; d <= 50; d++){
+//     if (d % 5 === 0) {
+//         console.log(d);
+//     }
+// }
+
+
+// finding numbers divisible by 5 or 4 upto 50
+
+// let e = 0;
+// while (e <= 50) { // using while loop
+//     if (e % 4 === 0 || e % 5 === 0) {
+//         console.log(e);
+//     }
+//     e++;
+// }
+
+
+// using for loop
+
+// for(let e = 0; e <= 50; e++){
+//     if (e % 4 == 0 || e % 5 == 0) {
+//         console.log(e);
+//     }
+// }
+
+// finding both numbers divisible by 3, 4, 5 upto 100 
+
+// using while loop
+
+// let f = 0;
+// while (f <= 100) {
+//     if (f % 3 == 0 && f % 4 == 0 && f % 5 == 0) {
+//         console.log(f);
+//     }
+//     f++;
+// }
+
+// using for loop
+
+// for(let f = 0; f <= 100; f++){
+//     if (f % 3 == 0 && f % 4 == 0 && f % 5 == 0) {
+//         console.log(f);
+//     }
+// }
+
+// finding total of numbers that are divisible by 5 upto 40;
+
+// using for loop
+
+// let total = 0;
+// for(let g = 0; g <= 40; g++){
+//     if (g % 5 === 0) {
+//         // console.log(g);
+//         total = total + g;
+//         // console.log(total); // shows result in every loop
+//     }
+//     // console.log(total); // it shows every result multi time
+// }
+// console.log(total); // it shows result only one time
+
+// using while loop
+
+// let h = 0;
+// let sumOf = 0;
+// while (h <= 40) {
+//     if (h % 4 === 0) {
+//         // console.log(h);
+//         sumOf = sumOf + h;
+//         // console.log(sumOf); // it shows result in every loop
+//     }
+//     // console.log(sumOf); // it shows result multi times
+//     h++;
+// }
+// // console.log(sumOf); // it shows only one result

@@ -30,23 +30,23 @@
 
 // for loop
 
-// for( let i = 0; i <= 20; i++){
-//     // if (i < 10) { // result starts from 10
-//     //     continue;
-//     // }
-//     // if (i > 10) { // result upto 10
-//     //     continue;
-//     // }
-//     // console.log(i);
+for( let i = 0; i <= 20; i++){
+    // if (i < 10) { // result starts from 10
+    //     continue;
+    // }
+    if (i > 10) { // result upto 10
+        continue;
+    }
+    console.log(i);
 
-//     // if (i % 3 == 0) {
-//     //     console.log(i); // result 0, 3, 6 etc
-//     // }
+    // if (i % 3 == 0) {
+    //     console.log(i); // result 0, 3, 6 etc
+    // }
 
-//     if (i % 3 !== 0) {
-//         console.log(i); // result avoid 3, 6, 9, 12 etc
-//     }
-// }
+    // if (i % 3 !== 0) {
+    //     console.log(i); // result avoid 3, 6, 9, 12 etc
+    // }
+}
 
 
 
@@ -64,11 +64,8 @@
 //     console.log(n); // result upto 6
 // }
 
-let m = 10;
-do{
-    console.log(m);
-    m++;
-}
-while (m <= 5) {
-    console.log(m);
-}
+// let m = 10;
+// do{
+//     console.log(m);
+//     m++; // result 10 , 11.
+// }while (m < 5);

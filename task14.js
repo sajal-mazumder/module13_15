@@ -55,14 +55,18 @@
 //  nested friend 
 
 let myScore = 85;
-let friendScore = 56;
+let friendScore = 36;
 
-if (myScore >= 80 && friendScore >= 75) {
+if (myScore >= 80) {
     console.log('let us having lunch in a three star restaurant.')
-    if (friendScore <= 60) {
+    if (friendScore <= 60 && friendScore >= 50) {
         console.log('bill will pay my friend.')
-    }else if (friendScore <= 50) {
+    }else if (friendScore <= 50 && friendScore >= 40) {
         console.log('no meeting with my friend.')
+    }else if (friendScore < 40) {
+        console.log('you are dull student!')
+    }else{
+        console.log('thank you')
     }
 }else{
     console.log('block! no connection with you.')

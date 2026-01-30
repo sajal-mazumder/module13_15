@@ -52,7 +52,7 @@
 //     console.log(price)
 // }
 
-let age = 25;
+let age = 65;
 let foodPrice = 300;
 
 if( age <= 12){

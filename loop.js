@@ -33,9 +33,10 @@
 //     console.log(num1);
 //     // num1++; // it shows one type of output
 //     sum = sum + num1;
-//     console.log('sum of numbers is :', sum);
+//     console.log('sum of numbers is :', sum);  // shows result every loop
 //     num1 += 1; // it shows another output
 // }
+//   console.log('sum of numbers is :', sum); // shows only one result
 
 // let num2 = 2; // this code result shows true or false
 // let even = num2 % 2 == 0;
@@ -66,7 +67,32 @@
 // for(let num5 = 0; num5 <=40; num5 += 2){
 //     console.log( 'even numbers are : ', num5);
 // }
-for(let num5 = 1; num5 <=40; num5 += 2){
-    console.log( 'odd numbers are : ', num5);
-}
+// for(let num5 = 1; num5 <=40; num5 += 2){
+//     console.log( 'odd numbers are : ', num5);
+// }
 
+
+// find sum of numbers using for loop
+
+// let sum = 0;
+// for(let i = 0; i <= 20; i++){
+//     sum = sum + i;
+//     // console.log(i);
+//     // console.log(sum) // this line shows result in every loop
+// }
+// console.log(sum); // this line shows only one result
+
+
+// decrement using for loop
+
+// for(let i = 20; i >= 5; i--){
+//     console.log(i);
+// }
+
+// decrement using while loop
+
+// let n = 25;
+// while (n >= 5) {
+//     console.log(n);
+//     n--;
+// }

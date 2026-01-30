@@ -1,6 +1,6 @@
 
 
-let money = 50;
+let money = 500;
 
 if (money > 350) {
     console.log("you are enough to ride a car")

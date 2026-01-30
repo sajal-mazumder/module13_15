@@ -55,7 +55,7 @@
 //  nested friend 
 
 let myScore = 85;
-let friendScore = 66;
+let friendScore = 56;
 
 if (myScore >= 80 && friendScore >= 75) {
     console.log('let us having lunch in a three star restaurant.')

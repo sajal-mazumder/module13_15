@@ -96,3 +96,112 @@
 //     console.log(n);
 //     n--;
 // }
+
+// finding odd numbers using for loop
+// method : 1
+
+// for(let i = 1; i <= 20; i += 2){
+//     console.log(i);
+// }
+
+// method 2
+
+// for(let i = 0; i <= 20; i++){
+//     if (i % 2 == 1) {
+//         console.log(i);
+//     }
+// }
+
+// method 3
+
+// for(let i = 0; i <= 20; i++){
+//     if (i % 2 != 0) {
+//         console.log(i);
+//     }
+// }
+
+// finding odd number using while loop
+
+// method 1
+
+// let nm = 1;
+// while (nm <= 20) {
+//     console.log(nm);
+//     nm += 2;
+// }
+
+// method 2
+
+// let nmm = 0;
+// while (nmm <= 20) {
+//     if(nmm %  2 == 1){
+//         console.log(nmm);
+        
+//     }
+//     nmm++;
+// }
+
+// method 3
+// let nmmm = 0;
+// while (nmmm <= 20) {
+//     if(nmmm %  2 != 0){
+//         console.log(nmmm);
+        
+//     }
+//     nmmm++;
+// }
+
+// finding even numbers using for loop
+
+// method 1
+
+// for( let i = 0; i <= 20; i += 2){
+//     console.log(i);
+// }
+
+// method 2
+
+// for( let i = 0; i <= 20; i++){
+//     if (i % 2 == 0) {
+//         console.log(i);
+//     }
+// }
+
+// method 3
+
+// for(let i = 0; i <= 20; i++){
+//     if (i % 2 !== 1) {
+//         console.log(i);
+//     }
+// }
+
+
+// finding even numbers using while loop
+
+// method 1
+
+// let a = 0;
+// while (a <= 20) {
+//     console.log(a);
+//     a += 2;
+// }
+
+// method 2
+
+// let b = 0;
+// while (b <= 20) {
+//     if (b % 2 === 0) {
+//         console.log(b);
+//     }
+//     b++;
+// }
+
+// method 3
+
+let c = 0;
+while (c <= 20) {
+    if (c % 2 !== 1) {
+        console.log(c);
+    }
+    c++;
+}

@@ -44,16 +44,29 @@
 //     num2++;
 // }
 
-let num3 = 1;
+// let num3 = 1;
 
-while (num3 <= 20) {
-    // console.log(num3);
-    num3++;
-    // if (num3% 2 === 0) { // finding even numbers
-    //     console.log('even number is : ', num3); 
-    // } 
+// while (num3 <= 20) {
+//     // console.log(num3);
+//     num3++;
+//     if (num3% 2 === 0) { // finding even numbers
+//         console.log('even number is : ', num3); 
+//     } 
 
-    // if (num3 % 2 === 1) { // finding odd numbers
-    //     console.log('odd number is : ', num3);
-    // }
+//     if (num3 % 2 === 1) { // finding odd numbers
+//         console.log('odd number is : ', num3);
+//     }
+// }
+
+// let num4 = 0;
+// for (let num4 = 0; num4 <= 20; num4++) {
+//     console.log(num4);
+// }
+
+// for(let num5 = 0; num5 <=40; num5 += 2){
+//     console.log( 'even numbers are : ', num5);
+// }
+for(let num5 = 1; num5 <=40; num5 += 2){
+    console.log( 'odd numbers are : ', num5);
 }
+

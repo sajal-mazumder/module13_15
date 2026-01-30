@@ -33,5 +33,5 @@ let arr4 = [3, 5, 66, 4, 443, 447]
 // console.log(Array.isArray(arr3)); // checking is variable is array or not
 // console.log(Array.isArray(num)); // checking is variable is array or not
 
-let concat = arr2.concat(arr4);
-console.log(concat);
+// let concat = arr2.concat(arr4); // add two array is called concat
+// console.log(concat);
